@@ -24,4 +24,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<distributionManagement>
+    <snapshotRepository>
+      <id>Webappsnaprepo</id>
+      <url>http://18.217.170.51:8081/nexus/content/repositories/Webappsnaprepo/</url>
+    </snapshotRepository>
+    <repository>
+      <id>Webapprelerepo</id>
+      <url>http://18.217.170.51:8081/nexus/content/repositories/Webapprelerepo/</url>
+    </repository>
+  </distributionManagement>
 </project>
